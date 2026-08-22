@@ -10,3 +10,6 @@ $$(".subtabs button").forEach(b=>b.onclick=()=>{const parent=b.closest("section"
 function renderCourses(level="all"){$("#courses").innerHTML=courses.filter(c=>level==="all"||c[0]===level).map(c=>`<article class="course"><b>${c[1]}</b><span>${c[0]} COURSE</span></article>`).join("")}
 $$(".course-filter").forEach(b=>b.onclick=()=>{$$(".course-filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");renderCourses(b.dataset.level)});renderCourses();
 document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.site-header').classList.remove('open')));
+// Add a prominent downloadable brief-profile action to the hero.
+const heroActions=document.querySelector('.hero .actions');
+if(heroActions && !document.querySelector('.brief-profile-btn')){const a=document.createElement('a');a.className='btn ghost brief-profile-btn';a.href='assets/brief-profile.pdf';a.target='_blank';a.rel='noopener';a.textContent='Download Brief Profile';heroActions.appendChild(a);}
