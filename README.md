@@ -1,21 +1,10 @@
-# rajeshdoriya.github.io
+# Dr. Rajesh Doriya — Academic & Research Portfolio
 
 Personal academic and research website for Dr. Rajesh Doriya.
 
-## Deployment
+## Brief profile
 
-1. In GitHub: **Settings → Pages → Build and deployment**.
-2. Select **Deploy from a branch**.
-3. Select branch **main** and folder **/ (root)**.
-4. Save. The site will be available at `https://rajeshdoriya.github.io/` after GitHub Pages publishes it.
-
-## Scholarly profiles
-
-- Google Scholar: `agt4zPsAAAAJ`
-- ORCID: `0000-0001-6375-4940`
-- DBLP: `homepages/164/2025`
-- GitHub: `rajeshdoriya`
-- NIT Raipur institutional profile: `https://www.nitrr.ac.in/viewdetails.php?q=it.rdoriya`
+A downloadable one-page brief profile is available on the website as **Download Brief Profile**.
 
 ## Google Scholar metrics
 
