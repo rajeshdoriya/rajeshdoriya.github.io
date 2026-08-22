@@ -19,4 +19,4 @@ Personal academic and research website for Dr. Rajesh Doriya.
 
 ## Google Scholar metrics
 
-The site deliberately leaves citation count, h-index and i10-index as placeholders until they can be read directly from the Google Scholar profile. No third-party metric is substituted.
+The website links directly to the Google Scholar profile. Citation count, h-index and i10-index are not hard-coded from third-party services.
