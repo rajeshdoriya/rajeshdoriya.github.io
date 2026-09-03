@@ -22,9 +22,9 @@
 /* Academic Profile: render the supplied institutional artwork directly from repository-local assets. */
 .facts .institution-fact img{display:block}
 .facts .institution-fact:nth-child(3) img{display:block!important;content:url("/assets/mits-logo-supplied.webp")!important}
-.facts .institution-fact:nth-child(4) img{display:block!important;content:url("/assets/nitrr-logo.webp")!important}
+.facts .institution-fact:nth-child(4) img{display:block!important;content:url("/assets/nitrr-logo-supplied.webp")!important}
 .facts .institution-fact:nth-child(3)::before,.facts .institution-fact:nth-child(4)::before{display:none!important}
-.profile-links a[href*="nitrr.ac.in"]>img{content:url("/assets/nitrr-logo.webp")}
+.profile-links a[href*="nitrr.ac.in"]>img{content:url("/assets/nitrr-logo-supplied.webp")}
 
 /* Explicitly restore all six orbit keywords as separate labels. */
 .hero-visual .s3{font-size:10px!important;display:block!important;visibility:visible!important;opacity:1!important}
