@@ -19,10 +19,10 @@
 .hero-visual:after{content:"CLOUD COMPUTING";position:absolute;top:50%;left:50%;border:1px solid #2a536c;background:#0c1c2d;padding:7px 10px;border-radius:8px;font-size:10px;line-height:1.2;letter-spacing:.13em;color:#7fe0e8;white-space:nowrap;z-index:3;transform:translate(-50%,-50%) rotate(300deg) translateY(-225px) rotate(-300deg)}
 @media(max-width:600px){.hero-visual .s1{transform:translate(-50%,-50%) rotate(0deg) translateY(-145px) rotate(0deg)}.hero-visual .s2{transform:translate(-50%,-50%) rotate(120deg) translateY(-145px) rotate(-120deg)}.hero-visual .s3{transform:translate(-50%,-50%) rotate(180deg) translateY(-145px) rotate(-180deg);font-size:10px}.hero-visual .s4{transform:translate(-50%,-50%) rotate(60deg) translateY(-145px) rotate(-60deg)}.hero-visual:before{transform:translate(-50%,-50%) rotate(240deg) translateY(-145px) rotate(-240deg)}.hero-visual:after{transform:translate(-50%,-50%) rotate(300deg) translateY(-145px) rotate(-300deg)}}
 
-/* Academic Profile: use repository-local institutional artwork, not third-party URLs. */
+/* Academic Profile: use the supplied institutional artwork from local repository assets. */
 .facts .institution-fact img{display:block}
 .facts .institution-fact:nth-child(3) img{display:none}
-.facts .institution-fact:nth-child(3)::before{content:"";display:block;width:52px;height:52px;flex:0 0 52px;background:#fff url("mits-logo.webp") center/contain no-repeat;border-radius:10px;padding:3px;box-sizing:border-box}
+.facts .institution-fact:nth-child(3)::before{content:"";display:block;width:52px;height:52px;flex:0 0 52px;background:#fff url("mits-logo.png") center/contain no-repeat;border-radius:10px;padding:3px;box-sizing:border-box}
 .facts .institution-fact:nth-child(4) img{display:none}
 .facts .institution-fact:nth-child(4)::before{content:"";display:block;width:52px;height:52px;flex:0 0 52px;background:#fff url("nitrr-logo.webp") center/contain no-repeat;border-radius:10px;padding:3px;box-sizing:border-box}
 .profile-links a[href*="nitrr.ac.in"]>img{content:url("/assets/nitrr-logo.webp")}
