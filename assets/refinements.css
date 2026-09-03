@@ -19,10 +19,10 @@
 .hero-visual:after{content:"CLOUD COMPUTING";position:absolute;top:50%;left:50%;border:1px solid #2a536c;background:#0c1c2d;padding:7px 10px;border-radius:8px;font-size:10px;line-height:1.2;letter-spacing:.13em;color:#7fe0e8;white-space:nowrap;z-index:3;transform:translate(-50%,-50%) rotate(300deg) translateY(-225px) rotate(-300deg)}
 @media(max-width:600px){.hero-visual .s1{transform:translate(-50%,-50%) rotate(0deg) translateY(-145px) rotate(0deg)}.hero-visual .s2{transform:translate(-50%,-50%) rotate(120deg) translateY(-145px) rotate(-120deg)}.hero-visual .s3{transform:translate(-50%,-50%) rotate(180deg) translateY(-145px) rotate(-180deg);font-size:10px}.hero-visual .s4{transform:translate(-50%,-50%) rotate(60deg) translateY(-145px) rotate(-60deg)}.hero-visual:before{transform:translate(-50%,-50%) rotate(240deg) translateY(-145px) rotate(-240deg)}.hero-visual:after{transform:translate(-50%,-50%) rotate(300deg) translateY(-145px) rotate(-300deg)}}
 
-/* Use verified institutional logo artwork from the published image sources. */
-.facts .institution-fact:nth-child(3) img{content:url("https://www.mysarkarinaukri.com/files/imagecache/600x/files/images/mitsmono.jpg")}
-.facts .institution-fact:nth-child(4) img{content:url("https://akm-img-a-in.tosshub.com/sites/resources/campus/prod/img/logo/2023/7/niit-raipur-logo913552978970.jpg")}
-.profile-links a[href*="nitrr.ac.in"]>img{content:url("https://akm-img-a-in.tosshub.com/sites/resources/campus/prod/img/logo/2023/7/niit-raipur-logo913552978970.jpg")}
+/* Use verified institutional logo artwork. */
+.facts .institution-fact:nth-child(3) img{content:url("https://noc.mitsgwalior.in/Static/Images/mitslogo.png")}
+.facts .institution-fact:nth-child(4) img{content:url("assets/nitrr-logo.webp")}
+.profile-links a[href*="nitrr.ac.in"]>img{content:url("assets/nitrr-logo.webp")}
 
 /* Explicitly restore all six orbit keywords as separate labels. */
 .hero-visual .s3{font-size:10px!important;display:block!important;visibility:visible!important;opacity:1!important}
