@@ -60,7 +60,7 @@
 }
 @media(prefers-reduced-motion:reduce){.hero-visual .orbit,.hero-visual .signal,.hero-visual:before,.hero-visual:after{animation:none!important}}
 
-/* Dynamic research quote inside the orbital ring; changes every 10 seconds. */
+/* Dynamic research quote inside the orbital ring; changes every 15 seconds. */
 @keyframes quoteCycle{
 0%,15.9%{content:"\201C The important thing is not to stop questioning. Curiosity has its own reason for existing. \201D  — Albert Einstein"}
 16%,32.5%{content:"\201C What I cannot create, I do not understand. \201D  — Richard Feynman"}
@@ -71,5 +71,5 @@
 }
 .hero-visual .initials-mark{display:block!important;position:absolute;width:min(330px,70vw);height:min(330px,70vw);border:0;background:transparent;box-shadow:none;overflow:visible;z-index:3;pointer-events:none}
 .hero-visual .initials-mark span,.hero-visual .initials-mark small{display:none!important}
-.hero-visual .initials-mark:after{content:"\201C The important thing is not to stop questioning. Curiosity has its own reason for existing. \201D  — Albert Einstein";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(275px,76vw);padding:10px 14px;text-align:center;font:500 13px/1.5 "DM Sans",sans-serif;letter-spacing:.01em;color:#aebfce;background:rgba(7,17,31,.72);border:1px solid rgba(42,83,108,.72);border-radius:12px;text-shadow:0 1px 8px rgba(0,0,0,.35);animation:quoteCycle 60s steps(1,end) infinite;z-index:4}
+.hero-visual .initials-mark:after{content:"\201C The important thing is not to stop questioning. Curiosity has its own reason for existing. \201D  — Albert Einstein";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(275px,76vw);padding:10px 14px;text-align:center;font:500 13px/1.5 "DM Sans",sans-serif;letter-spacing:.01em;color:#aebfce;background:rgba(7,17,31,.72);border:0!important;border-radius:12px;text-shadow:0 1px 8px rgba(0,0,0,.35);animation:quoteCycle 90s steps(1,end) infinite;z-index:4}
 @media(max-width:600px){.hero-visual .initials-mark{width:300px;height:300px}.hero-visual .initials-mark:after{width:min(235px,72vw);font-size:11px;line-height:1.45;padding:8px 10px}}
