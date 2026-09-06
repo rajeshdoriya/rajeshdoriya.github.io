@@ -21,6 +21,8 @@ const journalMeta={
  'Connection Science':{index:'SCIE',if:'3.0',q:'Q2'},
  'Electronics':{index:'SCIE',if:'2.9',q:'Q1'},
  'Drones':{index:'SCIE',if:'5.2',q:'Q1'},
+ 'Intelligent Service Robotics':{index:'SCIE',if:'4.3',q:'Q1'},
+ 'IEEE Access':{index:'SCIE',if:'4.2',q:'Q1'},
  'International Journal of Computational Vision and Robotics':{index:'Scopus',q:'Q3'},
  'International Journal of Control Theory and Applications':{index:'Not currently indexed',q:'—'}
 };
