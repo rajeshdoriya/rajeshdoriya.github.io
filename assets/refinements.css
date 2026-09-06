@@ -60,14 +60,14 @@
 }
 @media(prefers-reduced-motion:reduce){.hero-visual .orbit,.hero-visual .signal,.hero-visual:before,.hero-visual:after{animation:none!important}}
 
-/* Dynamic research quote inside the orbital ring. */
+/* Dynamic research quote inside the orbital ring; changes every 10 seconds. */
 @keyframes quoteCycle{
 0%,15.9%{content:"\201C The important thing is not to stop questioning. Curiosity has its own reason for existing. \201D  — Albert Einstein"}
 16%,32.5%{content:"\201C What I cannot create, I do not understand. \201D  — Richard Feynman"}
-32.6%,49.2%{content:"\201C Science is a way of thinking much more than it is a body of knowledge. \201D  — Carl Sagan"}
+32.6%,49.2%{content:"\201C Science is much more than a body of knowledge. It is a way of thinking. \201D  — Carl Sagan"}
 49.3%,65.9%{content:"\201C If I have seen further, it is by standing on the shoulders of giants. \201D  — Isaac Newton"}
-66%,82.5%{content:"\201C The important thing is to never stop learning, because life never stops teaching. \201D  — Albert Einstein"}
-82.6%,100%{content:"\201C The whole of science is nothing more than a refinement of everyday thinking. \201D  — Albert Einstein"}
+66%,82.5%{content:"\201C The book of the universe cannot be understood unless one first learns to comprehend its language. \201D  — Galileo Galilei"}
+82.6%,100%{content:"\201C Nature uses only the longest threads to weave her patterns, so each small piece reveals the whole tapestry. \201D  — Richard Feynman"}
 }
 .hero-visual .initials-mark{display:block!important;position:absolute;width:min(330px,70vw);height:min(330px,70vw);border:0;background:transparent;box-shadow:none;overflow:visible;z-index:3;pointer-events:none}
 .hero-visual .initials-mark span,.hero-visual .initials-mark small{display:none!important}
