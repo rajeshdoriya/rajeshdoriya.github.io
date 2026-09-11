@@ -11,6 +11,78 @@
       type:'Five-Day Online Workshop',
       title:'AI, Robotics and Industry 4.0 for Innovation: From Problem Identification to Prototype Validation and Business Fit',
       details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'20 – 24 April 2026',
+      type:'One-Week Online Faculty Development Programme',
+      title:'Foundations and Applications of Deep Learning and Data Sciences (FADLDS-2026)',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'15 – 19 December 2025',
+      type:'Five-Day Workshop',
+      title:'SkyFarm Analytics',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'7 – 11 October 2024',
+      type:'Five-Day Workshop',
+      title:'Quantum Computing and Applications (QCA-2024)',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'February 2020',
+      type:'ATAL-Sponsored Workshop',
+      title:'Workshop on Robotics',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'January 2020',
+      type:'Workshop',
+      title:'CICC-2020',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'September 2019',
+      type:'Workshop',
+      title:'SCTR-2019',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'September 2018',
+      type:'Workshop',
+      title:'SCTR-2018',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'February 2018',
+      type:'Workshop',
+      title:'RCIT-2018',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'December 2017',
+      type:'Short Term Training Programme',
+      title:'Computational Intelligence & Cloud Computing',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'November 2017',
+      type:'Short Term Training Programme',
+      title:'Logic Building Using C and Matlab',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'September 2017',
+      type:'Short Term Training Programme',
+      title:'Logic Building Using C and Matlab',
+      details:'Organized at NIT Raipur.'
+    },
+    {
+      date:'September 2017',
+      type:'Workshop',
+      title:'SCTR-2017',
+      details:'Organized at NIT Raipur.'
     }
   ];
 
